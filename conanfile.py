@@ -11,7 +11,6 @@ class LibaioConan(ConanFile):
     url = "https://github.com/bincrafters/conan-libaio"
     homepage = "https://pagure.io/libaio"
     license = "LGPL-2.1"
-    exports = ["LICENSE.md"]
     exports_sources = ["CMakeLists.txt"]
     generators = "cmake"
     settings = "os", "arch", "compiler", "build_type"
